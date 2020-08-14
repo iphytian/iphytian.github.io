@@ -21,14 +21,14 @@
     </url>
     
     <url>
-        <loc>http://yoursite.com/archive/</loc>
+        <loc>http://yoursite.com/about/</loc>
         <lastmod>2020-08-14T08:25:14.933Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://yoursite.com/about/</loc>
+        <loc>http://yoursite.com/archive/</loc>
         <lastmod>2020-08-14T08:25:14.933Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
