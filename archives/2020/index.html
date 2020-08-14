@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/">
+    <link rel="canonical" href="http://yoursite.com/archives/2020/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -71,8 +71,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/home.jpg') 
-            /*config*/
+            background-image: url('/img/header_img/archives-widget.jpg')
+            /*page*/
         
     }
     
@@ -206,60 +206,66 @@
                 post-container
             ">
             
-                <!-- Main Content -->
-
-
-<div class="post-preview">
-
-    <a href="/article/post1/">
-        <h2 class="post-title">
-                                 
-            Untitled
-        </h2>
-        <h3 class="post-subtitle">
+                
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 archive">
+            <!-- 归档列表 -->
             
-        </h3>
-        <div class="post-content-preview">
             
-{}
-光的原理
 
-按人眼的感觉分类：Hue 色相, Saturation 饱和度, Brightness 明度
-光的三原色：R红色，G绿色，B蓝色
-印刷三原色：Cyan 青色，Magenta 品红色，Yellow 黄色，K 黑色
+             <!-- 归档列表 -->
+
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2020">
+                    <span class="tag-text">2020</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    08-14
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/article/post1/" style="color: #0085a1">
+                        <span>
+                            Untitled
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
+                </ul>
+            </div>
+            
 
 
-互补色
-
-红光被品红色的墙完全吸收
-蓝色被黄色的墙完全吸收
-绿色被青色的墙完全吸收
-
-...
         </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by tianzhu on
-            2020-08-14
-        </p>
-        <div class="tags">
-            
-        </div>
-    
-
+    </div>
 </div>
-<hr>
 
+<style type="text/css">
 
+   @media (min-width: 992px) {
+   .archive {
+       margin-left: 8.33333333%;
+       padding-right: 26.333333%;
+   }
+}
+</style>
 
-<!-- Pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
+<style type="text/css">
+   @media (min-width: 1200px){
+   .archive {
+   margin-left: 16.66666667%;
+   padding-right: 16.666667%;
+   }
+}
+</style>
 
 
                 <br>
